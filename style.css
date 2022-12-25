@@ -1,0 +1,22 @@
+table {
+  width: 100%;
+
+  text-align: left;
+  border: 1px solid;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  border: 1px solid;
+  padding: 10px;
+}
+
+th {
+  background-color: rgb(182, 178, 178);
+  width: 1px;
+}
+
+tr:nth-child(odd) {
+  background-color: rgb(255, 187, 0);
+}
